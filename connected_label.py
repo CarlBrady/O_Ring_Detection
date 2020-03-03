@@ -65,7 +65,6 @@ def connected_label(img):
 
     # radius obtained below by getting an average radius
     # from the max and min x/y compared to the mean x/y
-
     mean_x = mean_x/counter
     mean_y = mean_y/counter
     centroid = (int(mean_y),int(mean_x))

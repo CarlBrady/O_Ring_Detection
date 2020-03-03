@@ -19,10 +19,10 @@ def circle_check(img,radius,centroid):
                 if test[x+xx,y+yy] == 40:
                     counter = counter + 1
         if counter < 2:
-            return False
+            return (False)
         else:
             counter = 0
-    return True
+    return (True)
 
 # draw a black circle around the centroid using circle equation
 def circle_draw(img,radius,centroid):
